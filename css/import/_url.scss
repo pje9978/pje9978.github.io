@@ -1,6 +1,6 @@
-$url : "http://pje9978.ipdisk.co.kr:8000/list/HDD2/portfolio/work/";
+$url : "http://pje9978.ipdisk.co.kr:8000/list/HDD2/work/images/portfolio-design/";
 // variables
-$imgPath:"../images/gallery";
+$imgPath:"../../images/portfolio-design";
 
 // index gallery image url
 $galleryThumbUrls: (
@@ -40,38 +40,4 @@ $galleryDtlUrls: (
       }
     }
   }
-}
-
-//proj1 images url 
-
-
-#web_plantShop {
-
-  $subpagesURL : "http://pje9978.ipdisk.co.kr:8000/list/HDD2/portfolio-parallax/images/subpages/proj1";
-  
-  $projName : "2304_plant_website";
-  // .macbook .viewport{ background-image: url("#{$subpagesURL}/intro.png");}
-  .phone-display {
-    background: #ff352a;
-    .display-content {
-      margin-top: 16px;
-      // background: url("#{$url}/#{$projName}/images/capture/main-3.png");
-      background-size: cover;
-    }
-  }
-  
-}
-
-#appleRenewal {
-  // $subpagesURL : "http://pje9978.ipdisk.co.kr:8000/list/HDD2/portfolio-parallax/images/proj2";
-  $projName : "2307_Apple_redesign";
-  // .macbook .viewport{ background-image: url("#{$subpagesURL}/desktop.png");}
-  .phone-display {
-    background: #ffffff;
-    .display-content {
-      // margin-top: 16px;
-      // background: url("#{$subpagesURL}/mobile.png");
-      background-size: cover;
-    }
-  } 
 }
