@@ -1,6 +1,6 @@
-$url : "http://pje9978.ipdisk.co.kr:8000/list/HDD2/work/images/portfolio-design/";
+$url : "http://pje9978.ipdisk.co.kr:8000/list/HDD2/work/images/portfolio-design";
 // variables
-$imgPath:"../../images/portfolio-design";
+$imgPath:"http://pje9978.ipdisk.co.kr:8000/list/HDD2/work/images/portfolio-design";
 
 // index gallery image url
 $galleryThumbUrls: (
@@ -33,6 +33,7 @@ $galleryDtlUrls: (
     $i: index($galleryThumbUrls, $galleryThumbUrl);
     &:nth-child(#{$i}) {
       .slide__img {
+        // background-image: url("#{$imgPath}/#{$galleryThumbUrl}.jpg");
         background-image: url("#{$imgPath}/#{$galleryThumbUrl}.jpg");
         background-size: cover;
         background-repeat: no-repeat;
